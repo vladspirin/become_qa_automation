@@ -8,6 +8,7 @@ class ConfigEasy:
     user_name = os.environ.get('USERNAME')
     env = os.environ.get('BQA_ENV')
 
+
 config = ConfigEasy()
 
 print(config.request_timeout)
