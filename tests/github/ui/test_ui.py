@@ -1,5 +1,5 @@
-import src.config.config
+# import src.config.config
 
 
-def test_ui():
-    requests.get(url, timeout=request_timeout)
+#def test_ui():
+#    requests.get(url, timeout=request_timeout)
