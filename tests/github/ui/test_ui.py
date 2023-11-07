@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 def test_github_login_negative():
     # create webdriver object
-    driver = webdriver.Firefox()
+    driver = webdriver.Safari()
 
     # open the browser
     # navigate to login page
