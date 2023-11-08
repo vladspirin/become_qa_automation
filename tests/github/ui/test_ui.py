@@ -19,10 +19,10 @@ def test_github_login_negative():
     password_github.send_keys("password")
 
     # click button
-    login_github = driver.find_element(By.NAME, "commit")
-    login_github.click()
+    login_button_github = driver.find_element(By.NAME, "commit")
+    login_button_github.click()
 
     # check error message
-    error_msg = driver.find_element(By.CLASS_NAME, "flash-error")
+    flash_error_msg = driver.find_element(By.CLASS_NAME, "flash-error")
     time.sleep(5)
     assert error_msg is not None
