@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 def test_github_login_negative():
     # create webdriver object
-    driver = webdriver.Safari()
+    driver = webdriver.Firefox()
 
     # open the browser
     # navigate to login page
@@ -26,3 +26,5 @@ def test_github_login_negative():
     flash_error_msg = driver.find_element(By.CLASS_NAME, "flash-error")
     time.sleep(5)
     assert error_msg is not None
+
+
